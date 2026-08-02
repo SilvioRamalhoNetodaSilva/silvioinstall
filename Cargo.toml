@@ -5,7 +5,7 @@ edition = "2024"
 authors = ["Silvio Ramalho Neto da Silva"]
 license = "GPL-3.0-or-later"
 description = "SilvioLinux Installer"
-repository = "https://git.silviolinux.silvioramalhoneto.cloud/SilvioLinux/silviolinux-installer"
+repository = "https://github.com/SilvioRamalhoNetodaSilva/silvioinstall/"
 readme = "README.md"
 
 [[bin]]
