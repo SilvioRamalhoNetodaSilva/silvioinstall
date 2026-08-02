@@ -1,0 +1,8 @@
+SilvioLinux Installer
+
+Copyright (C) 2026 (Silvio Ramalho Neto da Silva)
+
+Licenciado sob a GNU General Public License versão 3
+ou qualquer versão posterior.
+
+https://www.gnu.org/licenses/gpl-3.0.html

@@ -1,0 +1,69 @@
+[installer]
+
+name = "SilvioLinux Installer"
+
+version = "0.1.0"
+
+executable = "silvioinstall"
+
+language = "pt_BR"
+
+theme = "SilvioLinux"
+
+window_width = 900
+
+window_height = 600
+
+fullscreen = false
+
+bios = true
+
+uefi = true
+
+logs = true
+
+log_file = "silvioinstall.log"
+
+[system]
+
+distribution = "SilvioLinux"
+
+desktop = "IceWM"
+
+package_manager = "opkg"
+
+bootloader = "GRUB"
+
+filesystem = "ext4"
+
+hostname = "silviolinux"
+
+timezone = "America/Sao_Paulo"
+
+locale = "pt_BR.UTF-8"
+
+[user]
+
+default_user = "silviolinux"
+
+create_home = true
+
+sudo = true
+
+[network]
+
+enable = true
+
+dhcp = true
+
+[gui]
+
+toolkit = "FLTK"
+
+version = "1.5.22"
+
+icon_theme = "SilvioLinux"
+
+font = "Roboto"
+
+font_size = 14

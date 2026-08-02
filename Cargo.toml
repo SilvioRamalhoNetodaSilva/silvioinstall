@@ -1,0 +1,24 @@
+[package]
+name = "silvioinstall"
+version = "0.1.0"
+edition = "2024"
+authors = ["Silvio Ramalho Neto da Silva"]
+license = "GPL-3.0-or-later"
+description = "SilvioLinux Installer"
+repository = "https://git.silviolinux.silvioramalhoneto.cloud/SilvioLinux/silviolinux-installer"
+readme = "README.md"
+
+[[bin]]
+name = "silvioinstall"
+path = "src/main.rs"
+
+[dependencies]
+fltk = "=1.5.22"
+
+[profile.release]
+opt-level = "z"
+lto = true
+strip = true
+panic = "abort"
+codegen-units = 1
+incremental = false
